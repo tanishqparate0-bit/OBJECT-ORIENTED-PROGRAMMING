@@ -163,3 +163,26 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_06\practical06.exe`
 
 **Result:** Successfully demonstrated runtime polymorphism by calculating the areas of Circle, Rectangle, and Triangle objects using the common Shape interface.
+
+## Practical 07 — Compile-Time Polymorphism: Overloading
+
+**Aim:** To understand how C++ selects functions at compile time based on parameters and operator definitions.
+
+**Program:** Function Overloading and Complex Number Addition
+
+**Concepts Demonstrated:**
+- Function overloading
+- Operator overloading
+- Compile-time polymorphism
+- Classes and constructors
+- Addition of complex numbers
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra -pedantic Practical_07/Practical_07.cpp -o Practical_07/practical07.exe`
+
+**Execution (Windows):**
+
+`.\Practical_07\practical07.exe`
+
+**Result:** The program demonstrates function overloading using integer and double addition, and operator overloading using the addition of two ComplexNumber objects.
