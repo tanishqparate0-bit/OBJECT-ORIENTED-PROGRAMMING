@@ -139,3 +139,27 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_05\practical05.exe`
 
 **Result:** The program demonstrates single and multilevel inheritance by displaying Student and GraduateStudent information through inherited member functions.
+
+## Practical 06 — Runtime Polymorphism and Abstract Classes
+
+**Aim:** To demonstrate how a base-class interface can be used to call the correct derived-class function at runtime.
+
+**Program:** Area Calculation Using Abstract Shape Class
+
+**Concepts Demonstrated:**
+- Abstract base classes
+- Pure virtual functions
+- Virtual destructors
+- Method overriding
+- Runtime polymorphism
+- Base-class pointers and smart pointers
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra Practical_06/Practical_06.cpp -o Practical_06/practical06.exe`
+
+**Execution:**
+
+`.\Practical_06\practical06.exe`
+
+**Result:** Successfully demonstrated runtime polymorphism by calculating the areas of Circle, Rectangle, and Triangle objects using the common Shape interface.
