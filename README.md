@@ -43,3 +43,26 @@ Membership: 1
 ### Expected Result
 
 The final amount after a 10% discount is ₹324.00 when the eligible purchase subtotal is ₹360.00.
+
+
+## Practical 02 — Classes, Access Specifiers and Member Functions
+
+**Aim:** To understand how classes combine data and behaviour, and how access specifiers protect data.
+
+**Program:** Bank Account Management System
+
+**Concepts demonstrated:**
+- Classes and objects
+- Private and public access specifiers
+- Parameterized constructors
+- Encapsulation
+- Member functions
+- Input validation
+
+**Compilation:**
+`g++ -std=c++17 Practical_02/Practical_02.cpp -o Practical_02/practical02.exe`
+
+**Execution:**
+`.\Practical_02\practical02.exe`
+
+**Result:** Successfully demonstrated two bank account objects with valid deposit and withdrawal operations and protection against invalid transactions.
