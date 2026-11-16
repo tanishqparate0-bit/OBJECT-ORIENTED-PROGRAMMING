@@ -90,3 +90,26 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_03\practical03.exe`
 
 **Result:** The program demonstrates deep copying, ownership transfer through move operations, and automatic resource cleanup using a destructor.
+
+## Practical 04 — RAII and Smart Pointers
+
+**Aim:** To learn how RAII ties resource lifetime to object lifetime and reduces manual memory-management errors.
+
+**Program:** Student Object Memory Management Using Smart Pointers
+
+**Concepts demonstrated:**
+- Raw pointers and manual memory management
+- `std::unique_ptr` and exclusive ownership
+- `std::shared_ptr` and reference counting
+- RAII and scope-based resource cleanup
+- Object constructors and destructors
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra Practical_04/Practical_04.cpp -o Practical_04/practical04.exe`
+
+**Execution:**
+
+`.\Practical_04\practical04.exe`
+
+**Result:** The program demonstrates that smart pointers automatically manage object lifetime and reduce the need for manual `delete` operations.
