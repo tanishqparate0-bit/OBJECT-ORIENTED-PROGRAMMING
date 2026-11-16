@@ -216,3 +216,28 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 **Trade-off:** Adds extra classes and conditional factory logic.
 
 **Result:** Successfully demonstrated the Factory design pattern by creating and using two notification types through a common interface.
+
+## Practical 09 — Generic Stack Using Templates
+
+**Aim:** To understand generic programming and how one class can work with multiple data types.
+
+**Program:** Generic Stack Implementation Using Templates and STL Vector
+
+**Concepts Demonstrated:**
+- Class templates
+- Generic programming
+- Stack data structure
+- LIFO (Last In, First Out)
+- STL vector
+- Exception handling
+- Testing integer, float, and string values
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra -pedantic Practical_09/Practical_09.cpp -o Practical_09/practical09.exe`
+
+**Execution (Windows):**
+
+`.\Practical_09\practical09.exe`
+
+**Result:** The program successfully demonstrated a reusable Stack template with integer, float, and string values. Empty-stack operations were handled using exceptions.
