@@ -300,3 +300,62 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 - `positions.txt` — Demonstrates reading and writing at different file positions.
 
 **Result:** The program writes and retrieves student records from a CSV file and demonstrates how file-position functions control reading and writing locations.
+
+## Practical 12 — Mini Project: Student Portal Management System
+
+**Aim:** To apply C++ OOP, STL containers, exception handling, file I/O, and Git in a functional console application.
+
+### Features
+- Add student records
+- View all records
+- Search by student ID
+- Calculate Pass/Fail results
+- Validate student details and reject duplicate IDs
+- Automatically save and reload records using CSV
+
+### Technologies
+- C++17
+- STL vector
+- Classes, inheritance, and runtime polymorphism
+- Standard exceptions
+- File handling using fstream
+- Git and GitHub
+
+### Main Components
+- `Student`: Student record structure
+- `PortalBase`: Abstract base class
+- `StudentPortal`: Manages records, validation, and CSV storage
+
+### Compilation
+
+Run from the `Practical_12` directory:
+
+```powershell
+g++ -std=c++17 -Wall -Wextra -pedantic Practical_12.cpp -o practical12.exe
+```
+
+### Execution
+
+```powershell
+.\practical12.exe
+```
+
+### Sample Records
+
+| ID | Name | Course | Marks |
+|---|---|---|---|
+| 1001 | Rahul Sharma | B.Tech CSE | 85 |
+| 1002 | Priya Patil | B.Tech AI | 92 |
+| 1003 | Aman Joshi | B.Tech AI | 35 |
+
+### Data Storage
+
+Records are stored in `portal_students.csv` and reloaded when the application starts. Student IDs must be positive and unique; marks must be between 0 and 100.
+
+### Limitations
+
+This mini project uses a basic CSV format and a simplified Pass/Fail calculation. It does not implement authentication, advanced CSV escaping, or database transactions.
+
+### Result
+
+The application demonstrates encapsulation, inheritance, runtime polymorphism, STL vectors, custom input validation, exception handling, and persistent CSV storage.
