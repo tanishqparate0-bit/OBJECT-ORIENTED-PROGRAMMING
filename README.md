@@ -113,3 +113,29 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_04\practical04.exe`
 
 **Result:** The program demonstrates that smart pointers automatically manage object lifetime and reduce the need for manual `delete` operations.
+
+## Practical 05 — Single and Multilevel Inheritance
+
+**Aim:** To understand base and derived classes and how data and behaviour can be reused.
+
+**Program:** University Student Management Using Inheritance
+
+**Concepts Demonstrated:**
+- Base and derived classes
+- Single inheritance
+- Multilevel inheritance
+- Protected data members
+- Constructor chaining
+- Reusing inherited member functions
+
+**Class Hierarchy:** Person → Student → GraduateStudent
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra Practical_05/Practical_05.cpp -o Practical_05/practical05.exe`
+
+**Execution:**
+
+`.\Practical_05\practical05.exe`
+
+**Result:** The program demonstrates single and multilevel inheritance by displaying Student and GraduateStudent information through inherited member functions.
