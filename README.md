@@ -241,3 +241,34 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_09\practical09.exe`
 
 **Result:** The program successfully demonstrated a reusable Stack template with integer, float, and string values. Empty-stack operations were handled using exceptions.
+
+## Practical 10 — Custom Exceptions: Banking Transaction
+
+**Aim:** To practise reporting application-specific failures and handling different errors in a controlled way.
+
+**Program:** Bank Account Withdrawal Using Custom Exceptions
+
+**Concepts Demonstrated:**
+- Custom exception classes
+- Exception inheritance hierarchy
+- `try`, `throw`, and `catch`
+- Separate exception handlers
+- Banking transaction validation
+- Maintaining account balance after failed transactions
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra -pedantic Practical_10/Practical_10.cpp -o Practical_10/practical10.exe`
+
+**Execution (Windows):**
+
+`.\Practical_10\practical10.exe`
+
+**Test Results:**
+- Withdrawal of 1500: Successful
+- Withdrawal of -200: InvalidAmount exception
+- Withdrawal of 6000: InsufficientFunds exception
+- Withdrawal of 0: InvalidAmount exception
+- Final balance: 3500.00
+
+**Result:** The program demonstrates custom exception handling and ensures failed withdrawals do not modify the account balance.
