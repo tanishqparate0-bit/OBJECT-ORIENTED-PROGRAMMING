@@ -66,3 +66,27 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_02\practical02.exe`
 
 **Result:** Successfully demonstrated two bank account objects with valid deposit and withdrawal operations and protection against invalid transactions.
+
+## Practical 03 — Constructors and Rule of Five
+
+**Aim:** To understand object creation, copying, moving, and safe management of dynamically allocated memory.
+
+**Program:** Dynamic Integer Array Using the Rule of Five
+
+**Concepts demonstrated:**
+- Default and parameterized constructors
+- Copy constructor and deep copying
+- Copy assignment operator
+- Move constructor
+- Move assignment operator
+- Destructor and dynamic memory management
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra Practical_03/Practical_03.cpp -o Practical_03/practical03.exe`
+
+**Execution (Windows):**
+
+`.\Practical_03\practical03.exe`
+
+**Result:** The program demonstrates deep copying, ownership transfer through move operations, and automatic resource cleanup using a destructor.
