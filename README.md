@@ -272,3 +272,31 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 - Final balance: 3500.00
 
 **Result:** The program demonstrates custom exception handling and ensures failed withdrawals do not modify the account balance.
+
+## Practical 11 — CSV Student Records Using File I/O
+
+**Aim:** To practise persistent storage, structured records, file modes, and file-position operations.
+
+**Program:** Student Record Management Using CSV Files
+
+**Concepts Demonstrated:**
+- File handling using `fstream`
+- CSV file writing and reading
+- Student records using structures
+- File-open and data validation
+- `seekg()` and `seekp()`
+- `tellg()` and `tellp()`
+
+**Compilation (from Practical_11 folder):**
+
+`g++ -std=c++17 -Wall -Wextra -pedantic Practical_11.cpp -o practical11.exe`
+
+**Execution (Windows):**
+
+`.\practical11.exe`
+
+**Generated Files:**
+- `students.csv` — Stores three student records.
+- `positions.txt` — Demonstrates reading and writing at different file positions.
+
+**Result:** The program writes and retrieves student records from a CSV file and demonstrates how file-position functions control reading and writing locations.
