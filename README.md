@@ -186,3 +186,33 @@ The final amount after a 10% discount is ₹324.00 when the eligible purchase su
 `.\Practical_07\practical07.exe`
 
 **Result:** The program demonstrates function overloading using integer and double addition, and operator overloading using the addition of two ComplexNumber objects.
+
+## Practical 08 — Factory Design Pattern
+
+**Aim:** To practise applying a common object-creation design pattern.
+
+**Program:** Notification System Using the Factory Pattern
+
+**Concepts Demonstrated:**
+- Factory design pattern
+- Abstract classes and interfaces
+- Object creation through a factory
+- Runtime polymorphism
+- Smart pointers
+- Exception handling
+
+**Implementation:** The NotificationFactory class creates either an EmailNotification or SMSNotification object based on the requested type.
+
+**Compilation:**
+
+`g++ -std=c++17 -Wall -Wextra -pedantic Practical_08/Practical_08.cpp -o Practical_08/practical08.exe`
+
+**Execution (Windows):**
+
+`.\Practical_08\practical08.exe`
+
+**Benefit:** Centralizes object creation and reduces direct dependencies on concrete notification classes.
+
+**Trade-off:** Adds extra classes and conditional factory logic.
+
+**Result:** Successfully demonstrated the Factory design pattern by creating and using two notification types through a common interface.
